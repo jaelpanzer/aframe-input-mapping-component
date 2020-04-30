@@ -1,0 +1,412 @@
+{
+  "version": "1.0.0.1",
+  "id": "29369309-adb6-498a-b987-d1623d4f961e",
+  "source": "Trimble Reveal 0.0.0.0",
+  "initial": "63f83c2a-ac04-4483-b10c-847464bd2868",
+  "assetgroups": [
+    {
+      "cache": true,
+      "name": "general-assets",
+      "paths": {
+        "audio": "assets\\audio\\",
+        "image": "assets\\images\\"
+      },
+      "assets": [
+        {
+          "id": "da9ee2bd-9335-437e-bd1a-5d070dd7d8ef",
+          "name": "click-sound",
+          "shortdesc": "",
+          "type": "audio",
+          "source": "click.ogg",
+          "visible": true,
+          "meta": null
+        },
+        {
+          "id": "ce7b6177-b77b-49c2-b0a9-2245cae72426",
+          "name": "location-pin1",
+          "shortdesc": "",
+          "type": "image",
+          "source": "location_pin.png",
+          "visible": true,
+          "meta": null
+        },
+        {
+          "id": "e3f380a0-521c-4e27-9f06-10c17f9d5435",
+          "name": "location-pin2",
+          "shortdesc": "",
+          "type": "image",
+          "source": "location_pin2.png",
+          "visible": true,
+          "meta": null
+        },
+        {
+          "id": "9378cef5-066f-41f9-827c-9e5b48abfca8",
+          "name": "image-pin",
+          "shortdesc": "",
+          "type": "image",
+          "source": "image_pin.png",
+          "visible": true,
+          "meta": null
+        },
+        {
+          "id": "32496803-bd4d-4d9e-be35-70f309788e36",
+          "name": "comment-pin",
+          "shortdesc": "",
+          "type": "image",
+          "source": "comment_pin.png",
+          "visible": true,
+          "meta": null
+        }
+      ]
+    },
+    {
+      "cache": true,
+      "name": "scene-assets",
+      "paths": {
+        "image": "userdata\\scene\\"
+      },
+      "assets": [
+        {
+          "id": "ccd4d243-5ed6-46ce-b3c7-56f2606cbfd5",
+          "name": "vs floor_thumb",
+          "shortdesc": "",
+          "type": "image",
+          "source": "thumb_63f83c2a-ac04-4483-b10c-847464bd2868.png",
+          "visible": true,
+          "meta": null
+        },
+        {
+          "id": "c15696e8-6a13-423b-9063-684aa5112403",
+          "name": "vs door_thumb",
+          "shortdesc": "",
+          "type": "image",
+          "source": "thumb_78bb8f6d-49b6-4b60-90f3-35e208fc5381.png",
+          "visible": true,
+          "meta": null
+        },
+        {
+          "id": "0cda91f5-e6c9-45ba-87eb-75f54fa7516b",
+          "name": "vs window_thumb",
+          "shortdesc": "",
+          "type": "image",
+          "source": "thumb_283cdca5-599d-4ba3-be23-e4973b46ed2e.png",
+          "visible": true,
+          "meta": null
+        }
+      ]
+    },
+    {
+      "cache": true,
+      "name": "scene-large-assets",
+      "paths": {
+        "image": "userdata\\scene\\"
+      },
+      "assets": [
+        {
+          "id": "1176aea8-f95e-4f5a-bf3d-a66b0361146e",
+          "name": "vs floor_pano",
+          "shortdesc": "",
+          "type": "image",
+          "source": "63f83c2a-ac04-4483-b10c-847464bd2868.png",
+          "visible": true,
+          "meta": null
+        },
+        {
+          "id": "936c9bf7-a380-47e9-b15e-9f62e65c5e0c",
+          "name": "vs door_pano",
+          "shortdesc": "",
+          "type": "image",
+          "source": "78bb8f6d-49b6-4b60-90f3-35e208fc5381.png",
+          "visible": true,
+          "meta": null
+        },
+        {
+          "id": "f54d0b5b-1536-49db-ae1f-60cd5d9b4fa3",
+          "name": "vs window_pano",
+          "shortdesc": "",
+          "type": "image",
+          "source": "283cdca5-599d-4ba3-be23-e4973b46ed2e.png",
+          "visible": true,
+          "meta": null
+        }
+      ]
+    },
+    {
+      "cache": false,
+      "name": "user-assets",
+      "paths": {
+        "image": "userdata\\images\\"
+      },
+      "assets": [
+        {
+          "id": "511f1dc2-1ebf-4ac5-b694-078594290c51",
+          "name": "splash",
+          "shortdesc": "forensics splash.PNG",
+          "type": "image",
+          "source": "forensics splash_20191113200750195.PNG",
+          "visible": true,
+          "meta": "w:263|h:190"
+        },
+        {
+          "id": "37140806-2a3e-4b73-aa9e-7f819109baf2",
+          "name": "bug house",
+          "shortdesc": "Img_P001_01.PNG",
+          "type": "image",
+          "source": "Img_P001_01_20191113200807815.PNG",
+          "visible": true,
+          "meta": "w:1340|h:830"
+        },
+        {
+          "id": "3a6ea246-76d7-4e9d-bbea-59cf656f71e0",
+          "name": "garbage can",
+          "shortdesc": "1 (2).PNG",
+          "type": "image",
+          "source": "1 (2)_20191113200946106.PNG",
+          "visible": true,
+          "meta": "w:512|h:512"
+        }
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "id": "4757a568-3e77-4968-afc0-bce9f8ea048c",
+      "name": "No Att. Note",
+      "type": "note",
+      "shortdesc": null,
+      "longdesc": "I am empty",
+      "assets": []
+    },
+    {
+      "id": "f8297259-c4c4-4187-acc6-8ad3e205db46",
+      "name": "att corner opposite door and window",
+      "type": "note",
+      "shortdesc": null,
+      "longdesc": "",
+      "assets": [
+        "511f1dc2-1ebf-4ac5-b694-078594290c51",
+        "37140806-2a3e-4b73-aa9e-7f819109baf2"
+      ]
+    },
+    {
+      "id": "9c8aec3d-ffbf-4bf3-9e25-ee4bf152e08c",
+      "name": "Evidence Marker 3",
+      "type": "evidence",
+      "shortdesc": "3",
+      "longdesc": "i am a big huge marker",
+      "assets": []
+    },
+    {
+      "id": "2d5f0497-3744-4c2c-8812-7b8436c34530",
+      "name": "em bottom of door",
+      "type": "evidence",
+      "shortdesc": "1",
+      "longdesc": "this is a really really long description of my first tent.\nsort of. okay. it's really not that long.\n3rd line. no attachments.",
+      "assets": []
+    },
+    {
+      "id": "55451244-eb2d-49ba-bb4f-7f2159195e9a",
+      "name": "em top of window",
+      "type": "evidence",
+      "shortdesc": "2",
+      "longdesc": "has an attachment here.",
+      "assets": [
+        "3a6ea246-76d7-4e9d-bbea-59cf656f71e0"
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "63f83c2a-ac04-4483-b10c-847464bd2868",
+      "name": "vs floor",
+      "thumbsource": "ccd4d243-5ed6-46ce-b3c7-56f2606cbfd5",
+      "panosource": "1176aea8-f95e-4f5a-bf3d-a66b0361146e",
+      "hotspots": [
+        {
+          "id": "0b4345da-51ca-42ac-a134-14e509c91a6b",
+          "posx": -5.4024525000186445,
+          "posy": 8.3160385217596424,
+          "posz": 0.81210238865058337,
+          "type": "camera",
+          "source": "78bb8f6d-49b6-4b60-90f3-35e208fc5381"
+        },
+        {
+          "id": "28e31ae5-7b13-48fe-ab35-c3cdbeb61751",
+          "posx": 4.2372628821905245,
+          "posy": 8.8456404466896625,
+          "posz": 1.6741410798072978,
+          "type": "camera",
+          "source": "283cdca5-599d-4ba3-be23-e4973b46ed2e"
+        },
+        {
+          "id": "9bd3c716-f998-4b5c-8e15-18daa01ace55",
+          "posx": -2.9829990747558144,
+          "posy": 8.44279412785472,
+          "posz": -4.3385992940887972,
+          "type": "note",
+          "source": "4757a568-3e77-4968-afc0-bce9f8ea048c"
+        },
+        {
+          "id": "10a3ba2e-7f21-4959-af1e-48f8c2e00baa",
+          "posx": -9.6807766058861322,
+          "posy": 1.0364709921582693,
+          "posz": -2.0520214885186325,
+          "type": "note",
+          "source": "f8297259-c4c4-4187-acc6-8ad3e205db46"
+        },
+        {
+          "id": "ffbc4231-36de-472c-a9b3-d031381fa67d",
+          "posx": 1.8954422055659497,
+          "posy": 8.5108893530607652,
+          "posz": -4.7931786181318321,
+          "type": "evidence",
+          "source": "9c8aec3d-ffbf-4bf3-9e25-ee4bf152e08c"
+        },
+        {
+          "id": "99e2e76c-4454-4295-a55a-0b8b15ec2c30",
+          "posx": -6.0725423350265357,
+          "posy": 7.8176696938375345,
+          "posz": -1.0053706517322871,
+          "type": "evidence",
+          "source": "2d5f0497-3744-4c2c-8812-7b8436c34530"
+        },
+        {
+          "id": "faa062af-c5db-4bbb-a98e-2678a65db5f6",
+          "posx": 6.0204201807250657,
+          "posy": 7.2729017105989309,
+          "posz": 3.1403728370187993,
+          "type": "evidence",
+          "source": "55451244-eb2d-49ba-bb4f-7f2159195e9a"
+        }
+      ]
+    },
+    {
+      "id": "78bb8f6d-49b6-4b60-90f3-35e208fc5381",
+      "name": "vs door",
+      "thumbsource": "c15696e8-6a13-423b-9063-684aa5112403",
+      "panosource": "936c9bf7-a380-47e9-b15e-9f62e65c5e0c",
+      "hotspots": [
+        {
+          "id": "9cb3441d-f9e9-4ba4-b93b-fa6d5b018514",
+          "posx": 5.4024525000186445,
+          "posy": -8.3160385217596424,
+          "posz": -0.81210238865058337,
+          "type": "camera",
+          "source": "63f83c2a-ac04-4483-b10c-847464bd2868"
+        },
+        {
+          "id": "0adadfa2-7574-4c2d-93ac-2c671a967bcd",
+          "posx": 9.6578868737873034,
+          "posy": 2.1238060507918792,
+          "posz": 1.1032538201822488,
+          "type": "camera",
+          "source": "283cdca5-599d-4ba3-be23-e4973b46ed2e"
+        },
+        {
+          "id": "b29eadcf-306a-4ff5-8623-14996e118220",
+          "posx": 5.8877373447973964,
+          "posy": -7.5112014958737472,
+          "posz": -2.8140542011592609,
+          "type": "note",
+          "source": "4757a568-3e77-4968-afc0-bce9f8ea048c"
+        },
+        {
+          "id": "79cb0197-1e35-4b3c-a5d3-c65b2b4beea6",
+          "posx": -1.0994220508845582,
+          "posy": -9.5214474551095378,
+          "posz": -2.671293603035219,
+          "type": "note",
+          "source": "f8297259-c4c4-4187-acc6-8ad3e205db46"
+        },
+        {
+          "id": "756e8afc-1857-492b-afd6-def51710087a",
+          "posx": 6.8049114709364149,
+          "posy": -6.8292875426629038,
+          "posz": -2.4609980764615096,
+          "type": "evidence",
+          "source": "9c8aec3d-ffbf-4bf3-9e25-ee4bf152e08c"
+        },
+        {
+          "id": "48bd43a9-6f40-4405-982a-a2a60c70b667",
+          "posx": -2.6220646586963792,
+          "posy": -3.4282710163993624,
+          "posz": -8.9651678603209373,
+          "type": "evidence",
+          "source": "2d5f0497-3744-4c2c-8812-7b8436c34530"
+        },
+        {
+          "id": "d5a610fe-aaf0-46ec-ac0a-323abd10b28b",
+          "posx": 9.6568471086763665,
+          "posy": -1.5888117562583353,
+          "posz": 1.7954055594277865,
+          "type": "evidence",
+          "source": "55451244-eb2d-49ba-bb4f-7f2159195e9a"
+        }
+      ]
+    },
+    {
+      "id": "283cdca5-599d-4ba3-be23-e4973b46ed2e",
+      "name": "vs window",
+      "thumbsource": "0cda91f5-e6c9-45ba-87eb-75f54fa7516b",
+      "panosource": "f54d0b5b-1536-49db-ae1f-60cd5d9b4fa3",
+      "hotspots": [
+        {
+          "id": "f954968d-0cbd-4f79-ad1c-56b3edd9adc7",
+          "posx": -4.2372628821905245,
+          "posy": -8.8456404466896625,
+          "posz": -1.6741410798072978,
+          "type": "camera",
+          "source": "63f83c2a-ac04-4483-b10c-847464bd2868"
+        },
+        {
+          "id": "ddd1dc2d-1390-4af1-b7a0-82b97ef16e9a",
+          "posx": -9.6578868737873034,
+          "posy": -2.1238060507918792,
+          "posz": -1.1032538201822488,
+          "type": "camera",
+          "source": "78bb8f6d-49b6-4b60-90f3-35e208fc5381"
+        },
+        {
+          "id": "b707b1d2-754a-4d21-9aaa-c7e418ee8351",
+          "posx": -5.6525535692061606,
+          "posy": -7.5597044993030869,
+          "posz": -3.1467453075314746,
+          "type": "note",
+          "source": "4757a568-3e77-4968-afc0-bce9f8ea048c"
+        },
+        {
+          "id": "cd70d849-0c9a-4684-91c7-4898e73727ac",
+          "posx": -7.3119717945475839,
+          "posy": -6.3968206718962763,
+          "posz": -2.1490122771499114,
+          "type": "note",
+          "source": "f8297259-c4c4-4187-acc6-8ad3e205db46"
+        },
+        {
+          "id": "93a12126-89fd-45e5-a88e-5bdafa4e8997",
+          "posx": -4.5351680148124878,
+          "posy": -8.2092107735737159,
+          "posz": -3.3231926745921565,
+          "type": "evidence",
+          "source": "9c8aec3d-ffbf-4bf3-9e25-ee4bf152e08c"
+        },
+        {
+          "id": "657593f6-d89b-44f7-aaee-02040e1c40df",
+          "posx": -9.2882046895039014,
+          "posy": -2.5234970843827509,
+          "posz": -2.5226407019211989,
+          "type": "evidence",
+          "source": "2d5f0497-3744-4c2c-8812-7b8436c34530"
+        },
+        {
+          "id": "b3d1f0e6-8243-40d8-8fb1-0211657b0e30",
+          "posx": 0.7678781839146952,
+          "posy": -9.7300544102272468,
+          "posz": 1.9336246452414627,
+          "type": "evidence",
+          "source": "55451244-eb2d-49ba-bb4f-7f2159195e9a"
+        }
+      ]
+    }
+  ]
+}
